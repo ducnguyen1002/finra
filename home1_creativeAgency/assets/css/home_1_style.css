@@ -7,169 +7,169 @@
 } */
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsBlackItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsBlackItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsBlackItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsBlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsBoldItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsBoldItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsBoldItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsBlack.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsBlack.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsBlack.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsBlack.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsBold.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsBold.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsBold.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsExtraBoldItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsExtraBoldItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsExtraBoldItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsExtraBold.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsExtraBold.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsExtraBold.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsExtraLightItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsExtraLightItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsExtraLightItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsExtraLight.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsExtraLight.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsExtraLight.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsLightItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsLightItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsLightItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsLightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsLight.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsLight.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsLight.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsMediumItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsMediumItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsMediumItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsMediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsMedium.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsMedium.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsMedium.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-Poppins.woff2') format('woff2'),
-    url('../font/WOFF/SVN-Poppins.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-Poppins.woff2") format("woff2"),
+    url("../font/WOFF/SVN-Poppins.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsSemiBoldItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsSemiBoldItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsSemiBoldItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsSemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsSemiBold.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsSemiBold.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsSemiBold.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsSemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsThinItalic.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsThinItalic.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsThinItalic.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'SVN-Poppins';
-  src: url('../font/WOFF/SVN-PoppinsThin.woff2') format('woff2'),
-    url('../font/WOFF/SVN-PoppinsThin.woff') format('woff');
+  font-family: "SVN-Poppins";
+  src: url("../font/WOFF/SVN-PoppinsThin.woff2") format("woff2"),
+    url("../font/WOFF/SVN-PoppinsThin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 html {
-  font-family: 'SVN-Poppins', sans-serif;
+  font-family: "SVN-Poppins", sans-serif;
 }
 
 .tc-navbar-st1 {
@@ -180,6 +180,7 @@ html {
   right: 0;
   z-index: 99;
   padding: 20px 3vw;
+  height: 90px;
 }
 
 .tc-navbar-st1 .navbar-collapse {
@@ -278,8 +279,13 @@ html {
     -webkit-padding-start: 0;
     padding-inline-start: 0;
   }
+  /* .tc-navbar-st1 .navbar-nav {
+    display: hidden !important;
+  } */
 }
 
+@media (max-width: 768px) {
+}
 /* --------------- header st1 --------------- */
 .tc-header-st1 {
   position: relative;
@@ -1419,7 +1425,11 @@ html {
   opacity: 0.5;
 }
 
-.tc-capabilities-st1 .accordion .accordion-item .accordion-button:not(.collapsed) .arrow {
+.tc-capabilities-st1
+  .accordion
+  .accordion-item
+  .accordion-button:not(.collapsed)
+  .arrow {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   opacity: 1;
@@ -1595,12 +1605,14 @@ html {
   left: 10%;
   width: 80%;
   height: 2px;
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(transparent),
-      color-stop(#fff),
-      to(transparent));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    color-stop(#fff),
+    to(transparent)
+  );
   background-image: linear-gradient(to right, transparent, #fff, transparent);
 }
 
@@ -1611,12 +1623,14 @@ html {
   left: 10%;
   width: 80%;
   height: 2px;
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(transparent),
-      color-stop(#fff),
-      to(transparent));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(transparent),
+    color-stop(#fff),
+    to(transparent)
+  );
   background-image: linear-gradient(to right, transparent, #fff, transparent);
 }
 
@@ -1882,7 +1896,7 @@ html {
 
 .tc-footer-st1 .links-wrapper {
   position: relative;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .tc-footer-st1 .links-wrapper .contact-links a {
@@ -1904,6 +1918,7 @@ html {
 
 .tc-footer-st1 .links-group h6.title-company {
   color: #171b6d;
+  line-height: 28px;
 }
 
 .tc-footer-st1 .links-group h6 {
@@ -1918,10 +1933,12 @@ html {
 }
 
 .tc-footer-st1 .links-group .links a.contacts-company {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
   color: #5e6872;
-  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .tc-footer-st1 .links-group .links a:hover {
@@ -2214,4 +2231,32 @@ html {
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 700;
+}
+
+
+/* Nút Back to Top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3;
+}
+
+/* Hiển thị nút khi cuộn xuống */
+.show {
+  display: block;
 }

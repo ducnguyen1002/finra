@@ -2720,8 +2720,8 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 15px 0;
-  color: #ababab;
+  margin: 15px 0 30px;
+  color: rgba(255, 255, 255, 0.50);
   font-size: 16px;
 }
 .tc-services-st1 .service-card ul li .ico {

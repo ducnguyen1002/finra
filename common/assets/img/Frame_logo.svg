@@ -1,0 +1,23 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 837" clip-path="url(#clip0_163_35609)">
+<rect id="Poster Tuye&#204;&#130;&#204;&#137;n du&#204;&#163;ng Finra_thang 7-02 1" width="150" height="150" fill="#0C0D1A"/>
+<g id="Group">
+<path id="Vector" d="M87.7396 67.3359H61.2706C58.9241 67.3359 57.0469 69.2132 57.0469 71.5598V98.0293C57.0469 101.784 61.5992 103.661 64.2742 101.033L90.7432 74.5634C93.3713 71.8883 91.4941 67.3359 87.7396 67.3359Z" fill="url(#paint0_linear_163_35609)"/>
+<path id="Vector_2" d="M88.5844 48H61.3646C58.9711 48 57 49.9242 57 52.3647V79.5851C57 83.4335 61.6931 85.4046 64.4151 82.6357L91.6349 55.4152C94.4038 52.6932 92.4797 48 88.5844 48Z" fill="url(#paint1_linear_163_35609)"/>
+<path id="Vector_3" d="M64.4623 82.6357L79.7617 67.3359H61.271C58.9245 67.3359 57.0472 69.2132 57.0472 71.5598V79.5382C57.0003 83.4335 61.6934 85.3577 64.4623 82.6357Z" fill="#2F7BF2"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_163_35609" x1="87.9524" y1="69.034" x2="56.4439" y2="87.6724" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C06AE4"/>
+<stop offset="1" stop-color="#4D24C6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_163_35609" x1="92.0192" y1="49.2287" x2="57" y2="69.503" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FDC2"/>
+<stop offset="1" stop-color="#00C3DE"/>
+</linearGradient>
+<clipPath id="clip0_163_35609">
+<rect width="150" height="150" fill="white"/>
+</clipPath>
+</defs>
+</svg>
