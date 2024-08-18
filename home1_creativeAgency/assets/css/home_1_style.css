@@ -279,13 +279,14 @@ html {
     -webkit-padding-start: 0;
     padding-inline-start: 0;
   }
+
   /* .tc-navbar-st1 .navbar-nav {
     display: hidden !important;
   } */
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 768px) {}
+
 /* --------------- header st1 --------------- */
 .tc-header-st1 {
   position: relative;
@@ -1425,11 +1426,7 @@ html {
   opacity: 0.5;
 }
 
-.tc-capabilities-st1
-  .accordion
-  .accordion-item
-  .accordion-button:not(.collapsed)
-  .arrow {
+.tc-capabilities-st1 .accordion .accordion-item .accordion-button:not(.collapsed) .arrow {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   opacity: 1;
@@ -1605,14 +1602,12 @@ html {
   left: 10%;
   width: 80%;
   height: 2px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(transparent),
-    color-stop(#fff),
-    to(transparent)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(transparent),
+      color-stop(#fff),
+      to(transparent));
   background-image: linear-gradient(to right, transparent, #fff, transparent);
 }
 
@@ -1623,14 +1618,12 @@ html {
   left: 10%;
   width: 80%;
   height: 2px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(transparent),
-    color-stop(#fff),
-    to(transparent)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(transparent),
+      color-stop(#fff),
+      to(transparent));
   background-image: linear-gradient(to right, transparent, #fff, transparent);
 }
 
@@ -1657,10 +1650,10 @@ html {
 /* --------------- blog st4 --------------- */
 .tc-blog-st4 {
   position: relative;
-  padding: 150px 0;
+  padding: 120px 0;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .tc-blog-st4 {
     padding: 24px 0;
   }
@@ -1972,6 +1965,10 @@ html {
     display: none;
   }
 
+  .home-st1 .fsz-16 {
+    font-size: 12px !important;
+  }
+
   .home-st1 .fsz-50 {
     font-size: 30px !important;
   }
@@ -2065,6 +2062,26 @@ html {
   display: none;
 }
 
+@media screen and (max-width: 767px) {
+  .tc-testimonials-st10 .interest-rate-card .title {
+    font-size: 18px !important;
+    line-height: normal;
+  }
+
+  .tc-testimonials-st10 .interest-rate-card .content {
+    font-size: 14px !important;
+    line-height: normal;
+  }
+
+  .tc-testimonials-st10 .interest-rate-card .sub-title {
+    font-size: 16px !important;
+  }
+
+  .tc-testimonials-st10 .interest-rate-card .button {
+    font-size: 12px !important;
+  }
+}
+
 .tc-testimonials-st10 .interest-rate-card .content.active {
   display: block;
 }
@@ -2146,7 +2163,7 @@ html {
 
 @media screen and (min-width: 992px) {
   .tc-testimonials-st10 {
-    padding-top: 140px;
+    padding-top: 120px;
   }
 
   .tc-testimonials-st10 .logo-icon {
@@ -2233,6 +2250,16 @@ html {
   font-weight: 700;
 }
 
+@media screen and (max-width: 767px) {
+  .tc-partner .title {
+    font-size: 24px;
+    line-height: 3.5rem;
+  }
+
+  .tc-partner img {
+    max-width: 140px;
+  }
+}
 
 /* Nút Back to Top */
 .back-to-top {
