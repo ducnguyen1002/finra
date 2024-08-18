@@ -264,4 +264,19 @@ $(window).on("load", function () {
 
     });
   
+$(function(){
+    window.onscroll = function() {
+        var backToTopButton = document.querySelector(".back-to-top");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            backToTopButton.classList.add("show");
+        } else {
+            backToTopButton.classList.remove("show");
+        }
+    };
 
+    // Khi người dùng nhấp vào nút, cuộn về đầu trang
+    document.querySelector(".back-to-top").addEventListener("click", function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+})

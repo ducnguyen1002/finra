@@ -2162,3 +2162,31 @@ html {
   line-height: 3.5rem;
   font-weight: 700;
 }
+
+
+/* Nút Back to Top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #0056b3;
+}
+
+/* Hiển thị nút khi cuộn xuống */
+.show {
+  display: block;
+}
