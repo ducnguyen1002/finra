@@ -1655,6 +1655,13 @@
   position: relative;
   padding: 140px 0;
 }
+
+.project-page-st1 .tc-header-st18 .line {
+  width: 80px;
+  height: 4px;
+  background-color: #000;
+}
+
 .project-page-st1 .tc-header-st18 .title {
   position: relative;
 }
@@ -1856,8 +1863,14 @@
 }
 .careers-page-st1 .tc-careers-st19 .careers {
   position: relative;
-  padding: 0 40px;
+  padding: 0 20px;
   border: 1px solid #9993;
+}
+
+@media (min-width: 768px) {
+  .careers-page-st1 .tc-careers-st19 .careers {
+    padding: 0 40px;
+  }
 }
 .careers-page-st1 .tc-careers-st19 .careers .career-card {
   position: relative;
@@ -1907,7 +1920,7 @@
   position: relative;
 }
 .career-page-st1 .tc-header-st20 .title h1 {
-  font-size: 130px;
+  font-size: 100px;
   text-transform: uppercase;
 }
 .career-page-st1 .tc-header-st20 .social-links {
@@ -2003,7 +2016,7 @@
   margin-bottom: 30px;
 }
 .career-page-st1 .tc-content-st20 {
-  padding: 100px 0 150px;
+  padding: 150px 0;
 }
 .career-page-st1 .requirements {
   position: relative;
@@ -2015,6 +2028,12 @@
 }
 .career-page-st1 .requirements .item h6 {
   margin-bottom: 10px;
+  color: var(--Labels-Primary, #000);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 157.143% */
+  letter-spacing: 0.2px;
 }
 .career-page-st1 .requirements .item ul {
   list-style-type: disc;
@@ -2721,7 +2740,7 @@
   -ms-flex-align: center;
   align-items: center;
   margin: 15px 0 30px;
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
 }
 .tc-services-st1 .service-card ul li .ico {
