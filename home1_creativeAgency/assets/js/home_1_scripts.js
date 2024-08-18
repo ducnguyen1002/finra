@@ -226,3 +226,17 @@ $(function () {
 
 
 });
+
+// quản lí ẩn hiện content theo ngày - tháng/ quý
+document.querySelectorAll('.button-group .button').forEach((button, index) => {
+    button.addEventListener('click', () => {
+        // Xóa class active khỏi tất cả các button và content
+        document.querySelectorAll('.button').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.content').forEach(content => content.classList.remove('active'));
+
+        // Thêm class active vào button và content tương ứng
+        button.classList.add('active');
+        document.querySelector(`.content-${index}`).classList.add('active');
+    });
+});
+

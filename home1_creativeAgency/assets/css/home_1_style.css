@@ -1187,21 +1187,22 @@ html {
   margin: 24px 0;
 }
 
-.tc-testimonials-st10 .button-group .button-day {
-  background-color: #fff;
-  border-radius: 30px;
-  padding: 3px 16px;
-  cursor: pointer;
-  border: none;
-}
-
-.tc-testimonials-st10 .button-group .button-month {
+.tc-testimonials-st10 .button-group .button {
   padding: 3px 16px;
   cursor: pointer;
   border: none;
   border-radius: 30px;
   background-color: #ccc;
-  color: rgba(0, 0, 0, 0.44);
+  color: #999;
+}
+
+.tc-testimonials-st10 .button-group .button.active {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 3px 16px;
+  cursor: pointer;
+  border: none;
+  color: rgba(0, 0, 0, 0.8)
 }
 
 .tc-testimonials-st1::after {
@@ -1645,6 +1646,17 @@ html {
   padding: 150px 0;
 }
 
+@media screen and (max-width: 991px) {
+  .tc-blog-st4 {
+    padding: 24px 0;
+  }
+
+  .tc-blog-st4 .title {
+    font-size: 30px !important;
+    line-height: 36px !important;
+  }
+}
+
 .tc-blog-st4 .swiper-slide {
   border-radius: 20px;
 }
@@ -1670,10 +1682,18 @@ html {
 .tc-blog-st4 .posts-slider {
   position: relative;
   overflow: hidden;
-  padding-bottom: 70px;
 
   display: flex;
-  gap: 2rem;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.tc-blog-st4 .posts-slider .posts-item {
+  width: 100%;
+}
+
+.tc-blog-st4 .posts-slider .posts-item .img-cover {
+  object-position: top;
 }
 
 .tc-blog-st4 .post-overlay {
@@ -1704,6 +1724,10 @@ html {
   padding: 40px;
   z-index: 20;
   color: #fff;
+}
+
+.tc-blog-st4 .post-overlay .info .tags a {
+  font-size: 18px;
 }
 
 .tc-blog-st4 .post-overlay .post-sub {
@@ -1744,6 +1768,19 @@ html {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     line-height: 2;
+  }
+
+  .tc-blog-st4 .post-overlay .info .tags span {
+    font-size: 18px;
+  }
+
+  .tc-blog-st4 .post-overlay .info .tags h2 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+
+  .tc-blog-st4 .post-overlay .info .tags a {
+    font-size: 14px;
   }
 
   .tc-blog-st4 .posts-slider {
@@ -1956,7 +1993,7 @@ html {
 
 .tc-testimonials-st10 {
   position: relative;
-  padding-top: 140px;
+  padding-top: 44px;
   overflow: hidden;
 }
 
@@ -1968,6 +2005,12 @@ html {
   padding: 22px;
 }
 
+@media screen and (max-width: 991px) {
+  .tc-testimonials-st10 .interest-rate-card {
+    margin-top: 44px;
+  }
+}
+
 .tc-testimonials-st10 .interest-rate-card .button {
   padding: 3px 10px;
 }
@@ -1975,7 +2018,7 @@ html {
 .tc-testimonials-st10 .interest-rate-card .title {
   color: var(--Labels-Primary, #000);
   /* font-family: "SVN-Poppins" !important; */
-  font-size: 38px !important;
+  font-size: 32px !important;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -2002,6 +2045,11 @@ html {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.2px;
+  display: none;
+}
+
+.tc-testimonials-st10 .interest-rate-card .content.active {
+  display: block;
 }
 
 .tc-testimonials-st10 .interest-rate-card .time {
@@ -2009,10 +2057,9 @@ html {
 
   text-align: center;
   /* font-family: "SVN-Poppins" !important; */
-  font-size: 24px !important;
+  font-size: 16px !important;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: 0.2px;
 }
 
@@ -2038,8 +2085,17 @@ html {
   letter-spacing: 0.2px;
 }
 
+@media screen and (max-width: 991px) {
+  .tc-testimonials-st10 .content-heading {
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+}
+
 .tc-testimonials-st10 .content {
-  color: black;
+  color: #2B3648;
   /* font-family: "SVN-Poppins" !important; */
   font-size: 16px !important;
   font-style: normal;
@@ -2047,12 +2103,19 @@ html {
   line-height: 28px;
   /* 175% */
   letter-spacing: 0.2px;
-  margin-top: 10px;
+  margin: 2rem auto;
+  text-align: justify;
 }
 
 .tc-testimonials-st10 .content .item {
   border-bottom: 1px solid #e3e3e3;
   padding: 12px 0;
+}
+
+.tc-testimonials-st10 .content .item div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .tc-testimonials-st10 .content .item:last-child {
@@ -2061,10 +2124,17 @@ html {
 }
 
 .tc-testimonials-st10 .logo-icon {
-  position: absolute;
-  top: -28px;
-  left: 0;
-  transform: translateX(-170%);
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .tc-testimonials-st10 {
+    padding-top: 140px;
+  }
+
+  .tc-testimonials-st10 .logo-icon {
+    margin-top: -2rem;
+  }
 }
 
 .tc-testimonials-st10 .testi-slider {
